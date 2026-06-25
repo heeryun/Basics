@@ -1,16 +1,22 @@
-# to start working run these prompts in the terminal
-# gets the latest changes
+Terminal/Command Promt Instructions
+
+In the very start, figure out where you want to store the project
+if you want to go in to a folder
+# cd <folder_name>
+
+then download the GitHub repository
+# git clone https://github.com/heeryun/basics
+
+to start working run these prompts in the terminal
+gets the latest changes
 # git pull 
 
-# while working
-# saves your progress
+while working saves your progress
 # git add .
 
-# when you've made a chunk of progress
-# saves a snapshot 
+when you've made a chunk of progress saves a snapshot 
 # git commit -m 'update message here'
 
-# when done working
-# Send everything to github
+when done working send everything to github, or 'upload' your code
 # git push
 
