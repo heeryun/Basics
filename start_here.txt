@@ -1,4 +1,5 @@
 Terminal/Command Prompt Instructions:
+NOTE: all code to copy is preceeded by a pound/hashtag (#) symbol
 
 In the very start, figure out where you want to store the project
 if you want to go in to a folder
