@@ -1,4 +1,4 @@
-Terminal/Command Promt Instructions
+Terminal/Command Prompt Instructions:
 
 In the very start, figure out where you want to store the project
 if you want to go in to a folder
@@ -7,6 +7,7 @@ if you want to go in to a folder
 then download the GitHub repository
 # git clone https://github.com/heeryun/basics
 
+Working Progress:
 to start working run these prompts in the terminal
 gets the latest changes
 # git pull 
@@ -20,3 +21,5 @@ when you've made a chunk of progress saves a snapshot
 when done working send everything to github, or 'upload' your code
 # git push
 
+Open the beginner_sandbox file and mess around there.
+Text me when you've messed around a bit! We can go from there :)
