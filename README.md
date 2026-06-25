@@ -1,2 +1,4 @@
-# Basics
-Helping a friend learn to code
+# Welcome RAScrivens
+Start at the start_here.txt file, and follow the instructions.
+If at any point in time you are having trouble, copy & paste the error to a AI bot of your choice (I recommend Gemini or Claude)
+Also feel free to text heeryun to with any troubles and progress you've made!
