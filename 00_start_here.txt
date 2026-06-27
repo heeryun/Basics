@@ -3,24 +3,30 @@ NOTE: all code to copy is preceeded by a pound/hashtag (#) symbol
 
 In the very start, figure out where you want to store the project
 if you want to go in to a folder
-# cd <folder_name>
+type this code into terminal:
+cd <folder_name>
 
 then download the GitHub repository
-# git clone https://github.com/heeryun/basics
+
+git clone https://github.com/heeryun/basics
 
 Working Progress:
 to start working run these prompts in the terminal
 gets the latest changes
-# git pull 
+type this code into terminal:
+git pull 
 
 while working saves your progress
-# git add .
+type this code into terminal:
+git add .
 
-when you've made a chunk of progress saves a snapshot 
-# git commit -m 'update message here'
+when you've made a chunk of progress saves a snapshot
+type this code into terminal:
+git commit -m 'update message here'
 
 when done working send everything to github, or 'upload' your code
-# git push
+type this code into terminal:
+git push
 
 Open the beginner_sandbox file and mess around there.
 Text me when you've messed around a bit! We can go from there :)
