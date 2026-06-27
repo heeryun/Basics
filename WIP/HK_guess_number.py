@@ -11,21 +11,31 @@ count_guess = 0
 guess_threshold = 5
 
 print(f"Guess what number I'm thinking of from 1-10. You have {guess_threshold} guesses!")
+
 while count_guess < guess_threshold:
     guess = input("Guess the Number: ") # Captures user typing (always reads as a string)
+    try:
+        guess = int(guess)
+    except ValueError:
+        # This block runs ONLY if the conversion fails
+        print("This is NOT a valid input.")
+        break
     count_guess += 1
     if int(guess) == number:
         print(f'Congrats! {number} was the number I was thinking of!')
+        print(f'You got it in {count_guess} guesses!')
         break
+
+    elif count_guess == guess_threshold:
+        print(f"Too bad, you've run out of luck!")
+        print(f"The number I was thinking of was {number}!")
+
     elif int(guess) < number:
         print(f'Higher!')
+        print(f'You have {guess_threshold - count_guess} guesses left!')
     elif int(guess) > number:
         print(f'Lower!')
-    #else:
-    #    print(f'Oops, try again!')
-    #    print(f'This is guess number {count_guess}')
-if count_guess == guess_threshold:
-    print(f"Too bad, you've run out of luck!")
-    print(f"The number I was thinking of was {number}!")
+        print(f'You have {guess_threshold - count_guess} guesses left!')
+    
 
 
