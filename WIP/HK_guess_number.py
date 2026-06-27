@@ -19,9 +19,9 @@ while count_guess < guess_threshold:
     except ValueError:
         # This block runs ONLY if the conversion fails
         print("This is NOT a valid input.")
-        break
+        continue
     count_guess += 1
-    if int(guess) == number:
+    if guess == number:
         print(f'Congrats! {number} was the number I was thinking of!')
         print(f'You got it in {count_guess} guesses!')
         break
@@ -30,10 +30,10 @@ while count_guess < guess_threshold:
         print(f"Too bad, you've run out of luck!")
         print(f"The number I was thinking of was {number}!")
 
-    elif int(guess) < number:
+    elif guess < number:
         print(f'Higher!')
         print(f'You have {guess_threshold - count_guess} guesses left!')
-    elif int(guess) > number:
+    elif guess > number:
         print(f'Lower!')
         print(f'You have {guess_threshold - count_guess} guesses left!')
     
